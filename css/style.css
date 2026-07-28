@@ -110,7 +110,7 @@ header a:focus-visible { outline-color: var(--white); }
 }
 .hero p.lede {
   margin-top: 1.6rem;
-  max-width: 68ch;
+  max-width: 58ch;
   font-size: 1.15rem;
 }
 .hero .actions { margin-top: 2.2rem; display: flex; gap: 1rem; flex-wrap: wrap; }
@@ -180,7 +180,7 @@ header a:focus-visible { outline-color: var(--white); }
 .video-frame {
   position: relative;
   aspect-ratio: 16 / 9;
-  max-width: 1600px;
+  max-width: 1100px;
   margin: 0 auto;
   border: 3px solid var(--white);
 }
@@ -190,7 +190,7 @@ header a:focus-visible { outline-color: var(--white); }
   border: 0;
 }
 .video-meta {
-  max-width: 1600px;
+  max-width: 1100px;
   margin: 1.2rem auto 0;
   color: var(--white);
   display: flex;
@@ -204,7 +204,7 @@ header a:focus-visible { outline-color: var(--white); }
 }
 
 .article {
-  max-width: 82ch;
+  max-width: 74ch;
   margin: 0 auto;
   padding: clamp(2.5rem, 6vw, 4.5rem) 5vw;
 }
