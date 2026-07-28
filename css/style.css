@@ -110,7 +110,7 @@ header a:focus-visible { outline-color: var(--white); }
 }
 .hero p.lede {
   margin-top: 1.6rem;
-  max-width: 68ch;
+  max-width: 100ch;
   font-size: 1.15rem;
 }
 .hero .actions { margin-top: 2.2rem; display: flex; gap: 1rem; flex-wrap: wrap; }
@@ -139,7 +139,7 @@ header a:focus-visible { outline-color: var(--white); }
 
 .frame-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
